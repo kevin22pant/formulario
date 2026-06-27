@@ -1,0 +1,20 @@
+
+/* Animaciones y mejoras sobre Bootstrap 5 */
+.form-control, .form-select, .form-check-input {
+    transition: all 0.2s ease-in-out;
+}
+
+/* Forzar visualización de error en los Radio inline de Bootstrap */
+.form-group-custom.invalid .invalid-feedback.d-none {
+    display: block !important;
+}
+
+/* Fondo de alerta suave cuando el campo sea inválido */
+.form-control.is-invalid, .form-select.is-invalid {
+    background-color: #fef2f2;
+}
+
+/* Colores personalizados para las etiquetas de tipo de vino en la tabla */
+.badge-tinto { background-color: #581845; color: white; }
+.badge-blanco { background-color: #fff2cc; color: #d6ad2a; border: 1px solid #d6ad2a; }
+.badge-rosado { background-color: #fce4d6; color: #c65911; border: 1px solid #c65911; }
